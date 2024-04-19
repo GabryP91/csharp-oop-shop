@@ -179,7 +179,7 @@ namespace csharp_oop_shop
             }
 
 
-            //funzione
+            //funzione settare la grandezza del il mio array 
             Prodotto[] Population( int number)
             {
                 return new Prodotto[number];
