@@ -107,7 +107,11 @@ namespace csharp_oop_shop
             //per l'icona euro su console
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            // Creazione di un prodotto
+            string nome, descrizione;
+
+            decimal prezzo, iva;
+
+            // Creazione oggetto prodotto
             Prodotto prodotto1 = new Prodotto("Penne", "Scatola di penne nere", 2.5m, 22);
 
             // Test dei metodi
@@ -129,11 +133,6 @@ namespace csharp_oop_shop
             {
                 Console.WriteLine("Sintassi errata. Inserisci numero");
             }
-
-
-            string nome, descrizione;
-
-            decimal prezzo, iva;
 
             //creo un array di prodotti
             Prodotto[] listaProdotti = Population(TotProd);
