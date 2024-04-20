@@ -70,7 +70,7 @@ namespace csharp_oop_shop
         private int GeneraCodice()
         {
             Random rnd = new Random();
-            return rnd.Next(10000000); // Numero casuale a 8 cifre
+            return rnd.Next(10000000); // Numero casuale a 8 cifre tra 0 (incluso) e 10000000 (escluso)
         }
 
         //metodo che restituisce il prezzo base in decimale
