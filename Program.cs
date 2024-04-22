@@ -82,7 +82,7 @@ namespace csharp_oop_shop
         //metodo che restituisce il prezzo base + IVA in decimale
         public decimal PrezzoConIVA()
         {
-            return this.Prezzo + (this.Prezzo * this.Iva / 100);
+            return this.Prezzo * (1 + (decimal)this.Iva / 100);
         }
 
         //metodo che restituisce il codice + nome
